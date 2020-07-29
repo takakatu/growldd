@@ -1,0 +1,158 @@
+!!!
+.body
+  //header
+  .container
+    .row
+      .col-xs-12.col-md-8
+        =link_to root_path, id: "title-name" do
+          整体AVENGERS
+      .col-xs-12.col-md-2
+        =link_to new_user_session_path do
+          ログイン
+      .col-xs-12.col-md-2
+        =link_to destroy_user_session_path, method: :delete do
+          ログアウト
+  //main
+  .monsin-btn
+    .monsin-btn__text
+      問診ページに移動する
+  .row
+    .promote
+      .picture
+        .picture__catch-copy
+          あなたの体、治します
+    .col-md-12
+      .about
+        整体アベンジャーズとは？
+      .about2
+        患者様のお体を正しい状態に「整体」することを使命に活動する
+      .about3
+        歴戦の整体師である
+    .col-md-12#quiestion
+      こんなことありませんでしたか？
+      .container
+        .row
+          .col-md-12.col-lg-4
+            .card
+              .thumbnail
+                = image_tag src="lpquiestion1.jpg"
+              .card-content
+                いくつも病院を紹介されたが、症状が一向に改善しない
+          .col-md-12.col-lg-4
+            .card
+              .thumbnail
+                = image_tag src="lpquiestion3.jpg"
+              .card-content
+                整骨院でマッサージを受けて電気治療を受けたけど、肩が上がらない
+          .col-md-12.col-lg-4
+            .card
+              .thumbnail
+                = image_tag src="lpquiestion4.jpg"
+              .card-content
+                不妊症クリニックに言っているが、一向に授かる気配がなく両親からの無言のプレッシャーを日々案じている
+    .col-md-12
+      .introduce
+        そんな患者様を整体アベンジャーズは
+      .introduce2
+        高い技術力を持って治療いたします
+    .col-md-12
+      .tutorial
+        整体アベンジャーズの使い方
+      .tutorial2
+        .row.row-eq-height
+          .col-lg-2#tutorial-number
+            .t-number
+              1
+          .col-lg-8
+            .t-title
+              通院可能な地域を選択してください
+            .t-content
+              問診ページへと移行し、通院可能な地域を選択しましょう。
+          .col-lg-2
+            .t-photo
+              写真入れる
+          .col-lg-2#tutorial-number
+            .t-number
+              2
+          .col-lg-8
+            .t-title
+              問診項目をチェックしてください
+            .t-content
+              質問事項に回答をお願い致します。
+          .col-lg-2
+            .t-photo
+              写真入れる
+          .col-lg-2#tutorial-number
+            .t-number
+              3
+          .col-lg-8
+            .t-title
+              希望する治療家を選択してください
+            .t-content
+              候補となる治療家が表示されます。希望される治療家を選択しましょう。
+          .col-lg-2
+            .t-photo
+              写真入れる
+          .col-lg-2#tutorial-number
+            .t-number
+              4
+          .col-lg-8
+            .t-title
+              予約を完了させましょう
+            .t-content
+              治療家のHPへと移動し、予約を完了させましょう。
+          .col-lg-2
+            .t-photo
+              写真入れる
+    .col-md-12
+      .qa
+        よくある質問
+      .container
+        .row.row-eq-height
+          .col-lg-4
+            .q-box
+              .q-box__q
+                Q1
+              .q-box-content
+                本当に治りますか？
+            %hr
+            .a-box
+              .qa-a
+                A
+              .qa-a-content
+                %p 正直なところ、治療というものは『治療してみなければわからない』所です。
+                %p １００％の治癒とはいかなくとも、『患者様と共に目標を定めていく』事に重きを置いています。
+                %p その為、私たちは自分の持つ技術を最大限発揮する為、日々研鑽することで周りの自院の患者様・仲間の治療家からは高い評価を受けています。
+          .col-lg-4
+            .q-box
+              .q-box__q
+                Q2
+              .q-box-content
+                病院でも治らなかったのですが・・・
+            %hr
+            .a-box
+              .qa-a
+                A
+              .qa-a-content
+                %p 整形外科の先生と私たちの大きな違いは『触診力』にあると私たちは思っています。
+                %p レントゲンではわからないような体の状態を私たちは触って違う視点から患者様のお力に沿えることを目指しています。
+                %p 勿論、レントゲン撮影やＭＲＩ検査が必要な場合は病院を紹介し最善の治療を尽くすように心がけております。
+          .col-lg-4
+            .q-box
+              .q-box__q
+                Q3
+              .q-box-content
+                ボキボキが苦手なのですが・・・
+            %hr
+            .a-box
+              .qa-a
+                A
+              .qa-a-content
+                %p 安心してください。
+                %p 私たちのコミュニティーにはボキボキと同じ効果の治療を痛みなくで行える先生が数多く在籍しております。
+                %p ボキボキ系の施術とは、骨の位置を元に戻す施術になりますが、軽く触れる程度の刺激でも骨の位置は元に戻せますので、ご安心ください。
+    .col-md-12
+      .shoukai
+        施術師紹介
+  //footer
+  フッター
